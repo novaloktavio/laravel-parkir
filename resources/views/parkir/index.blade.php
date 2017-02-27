@@ -4,6 +4,7 @@
 {!! link_to('parkir/create', 'Input Parkir Masuk', ['class' => 'btn btn-danger btn-sm']) !!}
 <hr>
 {{ Session::get('message')}}
+<!-- table -->
 <table class="table table-bordered">
 	<tr>
 		<th>No Polisi</th>
